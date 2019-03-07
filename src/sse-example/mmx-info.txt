@@ -1,0 +1,8 @@
+avx f16
+avx2 sm
+avx f16
+avx2 sm
+avx f16
+avx2 sm
+avx f16
+avx2 sm

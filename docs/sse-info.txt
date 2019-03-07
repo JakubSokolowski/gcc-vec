@@ -1,0 +1,16 @@
+sse sse
+sse3 sd
+sse4_1 
+sse4_2 
+sse sse
+sse3 sd
+sse4_1 
+sse4_2 
+sse sse
+sse3 sd
+sse4_1 
+sse4_2 
+sse sse
+sse3 sd
+sse4_1 
+sse4_2 

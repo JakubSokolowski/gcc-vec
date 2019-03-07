@@ -1,0 +1,12 @@
+mmx
+avx
+avx
+mmx
+avx
+avx
+mmx
+avx
+avx
+mmx
+avx
+avx
