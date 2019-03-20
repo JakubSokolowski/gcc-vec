@@ -1,0 +1,3 @@
+           -fkeep-static-functions -fkeep-static-consts  -flimit-function-alignment  -flive-range-shrinkage -floop-block  -floop-interchange  -floop-strip-mine -floop-unroll-and-jam  -floop-nest-optimize
+       -floop-strip-mine
+               Loop blocking or strip mining transforms, enabled with -floop-block or -floop-strip-mine, strip mine each loop in the loop nest by a given number of iterations.  The strip length can be

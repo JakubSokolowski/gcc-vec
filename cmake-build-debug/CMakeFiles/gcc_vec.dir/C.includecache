@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jakub/dev/repos/gcc-vec/src/sse-example/main.c
+unistd.h
+-
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+time.h
+-
+
