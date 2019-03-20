@@ -1,1 +1,0 @@
-/usr/bin/cc -g   CMakeFiles/gcc_vec.dir/src/sse-example/rdtsc.s.o CMakeFiles/gcc_vec.dir/src/sse-example/main.c.o  -o gcc_vec 

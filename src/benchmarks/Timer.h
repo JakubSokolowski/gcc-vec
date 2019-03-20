@@ -5,27 +5,31 @@
 #include <thread>
 #include <iostream>
 
+using Clock = std::chrono::steady_clock;
 using std::chrono::time_point;
-using std::chrono::duration_cast;
-using std::chrono::milliseconds;
+using std::chrono::duration_cast;;
 using namespace std::literals::chrono_literals;
-using std::this_thread::sleep_for;
+
 
 class Timer {
 public:
     void Start();
-    double GetTime();
+    template<typename T>
+    T GetTime();
 
 private:
-    time_point<std::chrono::steady_clock> = Clock::now();
+    time_point<Clock> start_time_m{};
 };
 
 void Timer::Start() {
-
+    start_time_m = Clock::now();
 }
 
-double Timer::GetTime() {
-    return 0;
+template <typename T>
+T Timer::GetTime() {
+    auto end = Clock::now();
+    auto diff = duration_cast<T>(end - start_time_m);
+    return diff;
 }
 
 
