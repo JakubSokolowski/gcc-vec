@@ -1,0 +1,4 @@
+lambda / no lambda
+fixed size / variable size
+counters / iterators
+flags / no flags
