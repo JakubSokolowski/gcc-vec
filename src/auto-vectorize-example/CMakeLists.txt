@@ -20,7 +20,7 @@ add_executable(
 project(auto-vec-opt CXX)
 set(
     OPT_COMPILER_FLAGS
-    "-Ofast -ftree-vectorizer-verbose=7 -march=native -std=c++11"
+    "-Ofast- -ftree-vectorizer-verbose=7 -floop-strip-mine -march=native  -march=native -std=c++11"
 )
 add_executable(
         auto-vec-opt

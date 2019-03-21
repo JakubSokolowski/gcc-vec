@@ -1,0 +1,12 @@
+             Optimized [ns]  Non optimized [ns]  Exec. time reduction [%]
+Baseline  :  265811          1846729             85%
+FixedSize :  216542          1558682             86%
+Lambda    :  215211          1562403             86%
+
+            Optimized       Non optimized
+Preset      Improvement     Improvement
+FixedSize   18.5%           15.5%
+Lambda      19%             15.3%
+
+Worst-Best exec. time reduction =  88%
+
