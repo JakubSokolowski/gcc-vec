@@ -1,0 +1,16 @@
+/usr/include/c++/7/bits/std_function.h:302:40: note: basic block vectorized
+/usr/include/c++/7/bits/stl_algobase.h:753:13: note: Loop 1 distributed: split to 0 loops and 1 library calls.
+./src/mandelbrot/unoptimized/unopt_mandelbrot.cpp:50:49: note: basic block vectorized
+/usr/include/c++/7/bits/stl_vector.h:172:18: note: basic block vectorized
+/usr/include/c++/7/bits/std_function.h:302:40: note: basic block vectorized
+/usr/include/c++/7/bits/stl_algobase.h:753:13: note: Loop 1 distributed: split to 0 loops and 1 library calls.
+./src/mandelbrot/unoptimized/unopt_mandelbrot.cpp:50:49: note: basic block vectorized
+/usr/include/c++/7/bits/stl_vector.h:172:18: note: basic block vectorized
+/usr/include/c++/7/bits/std_function.h:302:40: note: basic block vectorized
+/usr/include/c++/7/bits/stl_algobase.h:753:13: note: Loop 1 distributed: split to 0 loops and 1 library calls.
+./src/mandelbrot/unoptimized/unopt_mandelbrot.cpp:50:49: note: basic block vectorized
+/usr/include/c++/7/bits/stl_vector.h:172:18: note: basic block vectorized
+/usr/include/c++/7/bits/std_function.h:302:40: note: basic block vectorized
+/usr/include/c++/7/bits/stl_algobase.h:753:13: note: Loop 1 distributed: split to 0 loops and 1 library calls.
+./src/mandelbrot/unoptimized/unopt_mandelbrot.cpp:50:49: note: basic block vectorized
+/usr/include/c++/7/bits/stl_vector.h:172:18: note: basic block vectorized

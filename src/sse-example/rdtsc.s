@@ -24,7 +24,7 @@ scalar_sse:
 	mov %rsp, %rbp
 	push %rsi
 	push %rdi
-	# %rdi *s1, %rsi *s2, %rax %rdx *size
+	# %rdi *s1, %rsi *s2, %rax %rdx *Size
 	mov %rdx, %rax
 	xor %rdx, %rdx
 	

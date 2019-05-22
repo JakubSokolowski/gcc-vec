@@ -46,6 +46,7 @@ double Lambda() {
     std::default_random_engine re;
 
     typedef std::array<double, SIZE> DataArray;
+
     DataArray arr_a{};
     DataArray arr_b{};
     DataArray arr_res{};
@@ -66,7 +67,6 @@ double Lambda() {
     kernel_multiply(arr_a, arr_b, arr_res);
 
     return arr_res[0];
-
 }
 
 double FixedSize() {
@@ -74,6 +74,7 @@ double FixedSize() {
     std::default_random_engine re;
 
     typedef std::array<double, SIZE> DataArray;
+
     DataArray arr_a{};
     DataArray arr_b{};
     DataArray arr_res{};
@@ -82,8 +83,8 @@ double FixedSize() {
         return unif(re);
     };
 
-    std::generate(arr_a.begin(), arr_a.end(),random_double);
-    std::generate(arr_b.begin(), arr_b.end(),random_double);
+    std::generate(arr_a.begin(), arr_a.end(), random_double);
+    std::generate(arr_b.begin(), arr_b.end(), random_double);
 
     double cFixedMultiply = 23.5f;
 
@@ -121,7 +122,6 @@ int main() {
 
     time = timer.GetTime<std::chrono::nanoseconds>();
     std::cout << "\nLambda execution time: " << time.count() / reps;
-
 
     return 0;
 }

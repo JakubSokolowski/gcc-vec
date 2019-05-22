@@ -1,0 +1,12 @@
+/usr/include/c++/7/bits/std_function.h:302:40: note: basic block vectorized
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:50:49: note: basic block vectorized
+/usr/include/c++/7/bits/stl_vector.h:172:18: note: basic block vectorized
+/usr/include/c++/7/bits/std_function.h:302:40: note: basic block vectorized
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:50:49: note: basic block vectorized
+/usr/include/c++/7/bits/stl_vector.h:172:18: note: basic block vectorized
+/usr/include/c++/7/bits/std_function.h:302:40: note: basic block vectorized
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:50:49: note: basic block vectorized
+/usr/include/c++/7/bits/stl_vector.h:172:18: note: basic block vectorized
+/usr/include/c++/7/bits/std_function.h:302:40: note: basic block vectorized
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:50:49: note: basic block vectorized
+/usr/include/c++/7/bits/stl_vector.h:172:18: note: basic block vectorized
