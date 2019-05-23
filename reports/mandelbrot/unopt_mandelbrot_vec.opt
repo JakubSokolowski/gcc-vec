@@ -3,3 +3,8 @@
 /usr/include/c++/7/bits/std_function.h:704:7: note: basic block vectorized
 /usr/include/c++/7/bits/stl_vector.h:172:18: note: basic block vectorized
 /usr/include/c++/7/bits/std_function.h:704:7: note: basic block vectorized
+/usr/include/c++/7/bits/std_function.h:302:40: note: basic block vectorized
+./src/mandelbrot/unoptimized/unopt_mandelbrot.cpp:54:53: note: basic block vectorized
+/usr/include/c++/7/bits/std_function.h:704:7: note: basic block vectorized
+/usr/include/c++/7/bits/stl_vector.h:172:18: note: basic block vectorized
+/usr/include/c++/7/bits/std_function.h:704:7: note: basic block vectorized
