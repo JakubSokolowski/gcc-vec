@@ -1,0 +1,2 @@
+./src/loop-examples/loop1_nopt_simple.c:9:5: note: loop vectorized
+./src/loop-examples/loop1_nopt_simple.c:9:5: note: loop versioned for vectorization because of possible aliasing

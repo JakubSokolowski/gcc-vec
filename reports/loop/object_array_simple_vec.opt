@@ -1,0 +1,2 @@
+./src/loop-examples/object_array_simple.cpp:13:22: note: loop vectorized
+./src/loop-examples/object_array_simple.cpp:13:22: note: loop vectorized

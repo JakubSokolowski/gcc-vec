@@ -6,7 +6,7 @@ set(
 
 set(
     UNOPT_COMPILER_FLAGS
-    "-std=c++11 -march=native -O3"
+    "-std=c++11 -O3"
 )
 
 set(

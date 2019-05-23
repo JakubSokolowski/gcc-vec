@@ -1,0 +1,35 @@
+
+./src/loop-examples/loop1_opt_simple.c:9:5: note: versioning for alias required: can't determine dependence between *_5 and *_3
+./src/loop-examples/loop1_opt_simple.c:9:5: note: Unknown misalignment, naturally aligned
+./src/loop-examples/loop1_opt_simple.c:9:5: note: Unknown misalignment, naturally aligned
+./src/loop-examples/loop1_opt_simple.c:9:5: note: Unknown misalignment, naturally aligned
+./src/loop-examples/loop1_opt_simple.c:9:5: note: not ssa-name.
+./src/loop-examples/loop1_opt_simple.c:9:5: note: use not simple.
+./src/loop-examples/loop1_opt_simple.c:9:5: note: not ssa-name.
+./src/loop-examples/loop1_opt_simple.c:9:5: note: use not simple.
+./src/loop-examples/loop1_opt_simple.c:9:5: note: not ssa-name.
+./src/loop-examples/loop1_opt_simple.c:9:5: note: use not simple.
+./src/loop-examples/loop1_opt_simple.c:9:5: note: not ssa-name.
+./src/loop-examples/loop1_opt_simple.c:9:5: note: use not simple.
+./src/loop-examples/loop1_opt_simple.c:6:6: note: not vectorized: not enough data-refs in basic block.
+./src/loop-examples/loop1_opt_simple.c:6:6: note: not vectorized: not enough data-refs in basic block.
+./src/loop-examples/loop1_opt_simple.c:9:28: note: not consecutive access _43 = *_42;
+./src/loop-examples/loop1_opt_simple.c:9:28: note: not consecutive access *_42 = _46;
+./src/loop-examples/loop1_opt_simple.c:9:28: note: not consecutive access _45 = *_44;
+./src/loop-examples/loop1_opt_simple.c:9:28: note: not vectorized: no grouped stores in basic block.
+./src/loop-examples/loop1_opt_simple.c:9:28: note: not vectorized: not enough data-refs in basic block.
+./src/loop-examples/loop1_opt_simple.c:10:14: note: not vectorized: no vectype for stmt: vect__4.14_89 = MEM[(double *)vectp_a.12_87];
+ scalar_type: vector(2) double
+./src/loop-examples/loop1_opt_simple.c:10:14: note: not vectorized: no vectype for stmt: vect__6.17_94 = MEM[(double *)vectp_b.15_92];
+ scalar_type: vector(2) double
+./src/loop-examples/loop1_opt_simple.c:10:14: note: not vectorized: no vectype for stmt: MEM[(double *)vectp_a.19_98] = vect__7.18_95;
+ scalar_type: vector(2) double
+./src/loop-examples/loop1_opt_simple.c:10:14: note: not vectorized: no grouped stores in basic block.
+./src/loop-examples/loop1_opt_simple.c:10:14: note: not vectorized: not enough data-refs in basic block.
+./src/loop-examples/loop1_opt_simple.c:9:28: note: not consecutive access _71 = *_70;
+./src/loop-examples/loop1_opt_simple.c:9:28: note: not consecutive access *_70 = _74;
+./src/loop-examples/loop1_opt_simple.c:9:28: note: not consecutive access _73 = *_72;
+./src/loop-examples/loop1_opt_simple.c:9:28: note: not vectorized: no grouped stores in basic block.
+./src/loop-examples/loop1_opt_simple.c:9:5: note: not vectorized: no grouped stores in basic block.
+./src/loop-examples/loop1_opt_simple.c:12:1: note: not vectorized: not enough data-refs in basic block.
+./src/loop-examples/loop1_opt_simple.c:14:5: note: not vectorized: not enough data-refs in basic block.

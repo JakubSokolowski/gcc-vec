@@ -13,13 +13,13 @@
 namespace UNOPT {
     using Complex = std::complex<double>;
 
-    Complex Scale(Window<int> &scr, Window<double> &fr, Complex c);
+    Complex Scale(Window<int> scr, Window<double> fr, Complex c);
 
     int Escape(Complex c, int iter_max, const std::function<Complex(Complex, Complex)> &func);
 
-    void GetNumberIterations(Window<int> &scr, Window<double> &fract, int iter_max, std::vector<int> &colors,
+    void GetNumberIterations(Window<int> scr, Window<double> fract, int iter_max, std::vector<int> &colors,
                              const std::function<Complex(Complex, Complex)> &func) ;
-    void ComputeFractalPoints(Window<int> &scr, Window<double> &fract, int iter_max, std::vector<int> &colors,
+    void ComputeFractalPoints(Window<int> scr, Window<double> fract, int iter_max, std::vector<int> &colors,
                               const std::function<Complex(Complex, Complex)> &func) ;
 
     Fractal Mandelbrot();

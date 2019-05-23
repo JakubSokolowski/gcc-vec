@@ -1,0 +1,22 @@
+./src/loop-examples/non_continous_nopt_simple.c:6:5: note: not consecutive access *_7 = _8;
+./src/loop-examples/non_continous_nopt_simple.c:6:5: note: not consecutive access _4 = *_3;
+./src/loop-examples/non_continous_nopt_simple.c:6:5: note: not consecutive access _6 = *_5;
+./src/loop-examples/non_continous_nopt_simple.c:6:5: note: versioning for alias required: can't determine dependence between *_3 and *_7
+./src/loop-examples/non_continous_nopt_simple.c:6:5: note: versioning for alias required: can't determine dependence between *_5 and *_7
+./src/loop-examples/non_continous_nopt_simple.c:6:5: note: not ssa-name.
+./src/loop-examples/non_continous_nopt_simple.c:6:5: note: use not simple.
+./src/loop-examples/non_continous_nopt_simple.c:6:5: note: not ssa-name.
+./src/loop-examples/non_continous_nopt_simple.c:6:5: note: use not simple.
+./src/loop-examples/non_continous_nopt_simple.c:6:5: note: not ssa-name.
+./src/loop-examples/non_continous_nopt_simple.c:6:5: note: use not simple.
+./src/loop-examples/non_continous_nopt_simple.c:6:5: note: not ssa-name.
+./src/loop-examples/non_continous_nopt_simple.c:6:5: note: use not simple.
+./src/loop-examples/non_continous_nopt_simple.c:6:5: note: cost model: the vector iteration cost = 23 divided by the scalar iteration cost = 4 is greater or equal to the vectorization factor = 4.
+./src/loop-examples/non_continous_nopt_simple.c:6:5: note: not vectorized: vectorization not profitable.
+./src/loop-examples/non_continous_nopt_simple.c:6:5: note: not vectorized: vector version will never be profitable.
+./src/loop-examples/non_continous_nopt_simple.c:6:5: note: not consecutive access *_7 = _8;
+./src/loop-examples/non_continous_nopt_simple.c:6:5: note: not consecutive access _4 = *_3;
+./src/loop-examples/non_continous_nopt_simple.c:6:5: note: not consecutive access _6 = *_5;
+./src/loop-examples/non_continous_nopt_simple.c:6:5: note: not vectorized: no grouped stores in basic block.
+./src/loop-examples/non_continous_nopt_simple.c:8:12: note: not vectorized: not enough data-refs in basic block.
+./src/loop-examples/non_continous_nopt_simple.c:11:5: note: not vectorized: not enough data-refs in basic block.

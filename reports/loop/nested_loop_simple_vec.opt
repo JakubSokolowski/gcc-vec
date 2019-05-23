@@ -1,0 +1,2 @@
+./src/loop-examples/nested_loop_simple.c:11:9: note: loop vectorized
+./src/loop-examples/nested_loop_simple.c:11:9: note: loop vectorized

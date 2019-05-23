@@ -1,0 +1,12 @@
+./src/loop-examples/read_after_write_simple.c:8:5: note: not vectorized, possible dependence between data-refs ./src/loop-examples/read_after_write_simple.c:8:5: note: bad data dependence.
+./src/loop-examples/read_after_write_simple.c:7:9: note: not consecutive access _16 = MEM[(int *)&a];
+./src/loop-examples/read_after_write_simple.c:7:9: note: not consecutive access a[0] = 0;
+./src/loop-examples/read_after_write_simple.c:7:9: note: not vectorized: no grouped stores in basic block.
+./src/loop-examples/read_after_write_simple.c:8:5: note: not vectorized: not enough data-refs in basic block.
+./src/loop-examples/read_after_write_simple.c:10:1: note: not vectorized: not enough data-refs in basic block.
+./src/loop-examples/read_after_write_simple.c:8:5: note: not vectorized, possible dependence between data-refs ./src/loop-examples/read_after_write_simple.c:8:5: note: bad data dependence.
+./src/loop-examples/read_after_write_simple.c:7:9: note: not consecutive access _16 = MEM[(int *)&a];
+./src/loop-examples/read_after_write_simple.c:7:9: note: not consecutive access a[0] = 0;
+./src/loop-examples/read_after_write_simple.c:7:9: note: not vectorized: no grouped stores in basic block.
+./src/loop-examples/read_after_write_simple.c:8:5: note: not vectorized: not enough data-refs in basic block.
+./src/loop-examples/read_after_write_simple.c:13:5: note: not vectorized: not enough data-refs in basic block.

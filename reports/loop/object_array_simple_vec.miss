@@ -1,0 +1,50 @@
+
+./src/loop-examples/object_array_simple.cpp:13:22: note: Unknown misalignment, naturally aligned
+./src/loop-examples/object_array_simple.cpp:13:22: note: Unknown misalignment, naturally aligned
+./src/loop-examples/object_array_simple.cpp:13:22: note: not ssa-name.
+./src/loop-examples/object_array_simple.cpp:13:22: note: use not simple.
+./src/loop-examples/object_array_simple.cpp:13:22: note: not ssa-name.
+./src/loop-examples/object_array_simple.cpp:13:22: note: use not simple.
+./src/loop-examples/object_array_simple.cpp:12:5: note: not vectorized: not enough data-refs in basic block.
+./src/loop-examples/object_array_simple.cpp:13:5: note: not consecutive access _90 = _89->a;
+./src/loop-examples/object_array_simple.cpp:13:5: note: not consecutive access _89->a = _91;
+./src/loop-examples/object_array_simple.cpp:13:5: note: not vectorized: no grouped stores in basic block.
+./src/loop-examples/object_array_simple.cpp:13:5: note: not consecutive access _103 = _102->a;
+./src/loop-examples/object_array_simple.cpp:13:5: note: not consecutive access _102->a = _104;
+./src/loop-examples/object_array_simple.cpp:13:5: note: not vectorized: no grouped stores in basic block.
+./src/loop-examples/object_array_simple.cpp:13:5: note: not consecutive access _19 = _20->a;
+./src/loop-examples/object_array_simple.cpp:13:5: note: not consecutive access _20->a = _14;
+./src/loop-examples/object_array_simple.cpp:13:5: note: not vectorized: no grouped stores in basic block.
+./src/loop-examples/object_array_simple.cpp:13:5: note: not vectorized: not enough data-refs in basic block.
+./src/loop-examples/object_array_simple.cpp:8:10: note: not vectorized: no vectype for stmt: vect__10.15_64 = MEM[(int *)vectp_obj.13_62];
+ scalar_type: vector(4) int
+./src/loop-examples/object_array_simple.cpp:8:10: note: not vectorized: no vectype for stmt: MEM[(int *)vectp_obj.17_69] = vect__11.16_66;
+ scalar_type: vector(4) int
+./src/loop-examples/object_array_simple.cpp:8:10: note: not vectorized: no grouped stores in basic block.
+./src/loop-examples/object_array_simple.cpp:8:10: note: not vectorized: not enough data-refs in basic block.
+./src/loop-examples/object_array_simple.cpp:13:22: note: not consecutive access _3 = _2->a;
+./src/loop-examples/object_array_simple.cpp:13:22: note: not consecutive access _2->a = _10;
+./src/loop-examples/object_array_simple.cpp:13:22: note: not vectorized: no grouped stores in basic block.
+./src/loop-examples/object_array_simple.cpp:13:22: note: not consecutive access _78 = _77->a;
+./src/loop-examples/object_array_simple.cpp:13:22: note: not consecutive access _77->a = _79;
+./src/loop-examples/object_array_simple.cpp:13:22: note: not vectorized: no grouped stores in basic block.
+./src/loop-examples/object_array_simple.cpp:13:5: note: not consecutive access _48 = _47->a;
+./src/loop-examples/object_array_simple.cpp:13:5: note: not consecutive access _47->a = _49;
+./src/loop-examples/object_array_simple.cpp:13:5: note: not vectorized: no grouped stores in basic block.
+./src/loop-examples/object_array_simple.cpp:16:19: note: not vectorized: not enough data-refs in basic block.
+
+./src/loop-examples/object_array_simple.cpp:13:22: note: misalign = 0 bytes of ref _7->a
+./src/loop-examples/object_array_simple.cpp:13:22: note: misalign = 0 bytes of ref _7->a
+./src/loop-examples/object_array_simple.cpp:13:22: note: not ssa-name.
+./src/loop-examples/object_array_simple.cpp:13:22: note: use not simple.
+./src/loop-examples/object_array_simple.cpp:13:22: note: not ssa-name.
+./src/loop-examples/object_array_simple.cpp:13:22: note: use not simple.
+./src/loop-examples/object_array_simple.cpp:19:7: note: not vectorized: no vectype for stmt: a = {};
+ scalar_type: struct A[65536]
+./src/loop-examples/object_array_simple.cpp:19:7: note: not vectorized: not enough data-refs in basic block.
+./src/loop-examples/object_array_simple.cpp:8:10: note: not vectorized: no vectype for stmt: vect__8.32_26 = MEM[(int *)vectp_a.30_20];
+ scalar_type: vector(4) int
+./src/loop-examples/object_array_simple.cpp:8:10: note: not vectorized: no vectype for stmt: MEM[(int *)vectp_a.34_16] = vect__9.33_17;
+ scalar_type: vector(4) int
+./src/loop-examples/object_array_simple.cpp:8:10: note: not vectorized: no grouped stores in basic block.
+./src/loop-examples/object_array_simple.cpp:18:5: note: not vectorized: not enough data-refs in basic block.

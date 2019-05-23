@@ -1,0 +1,34 @@
+./src/loop-examples/loop_basic_simple.c:5:5: note: misalign = 0 bytes of ref b[i_12]
+./src/loop-examples/loop_basic_simple.c:5:5: note: misalign = 0 bytes of ref c[i_12]
+./src/loop-examples/loop_basic_simple.c:5:5: note: misalign = 0 bytes of ref a[i_12]
+./src/loop-examples/loop_basic_simple.c:5:5: note: num. args = 4 (not unary/binary/ternary op).
+./src/loop-examples/loop_basic_simple.c:5:5: note: not ssa-name.
+./src/loop-examples/loop_basic_simple.c:5:5: note: use not simple.
+./src/loop-examples/loop_basic_simple.c:5:5: note: num. args = 4 (not unary/binary/ternary op).
+./src/loop-examples/loop_basic_simple.c:5:5: note: not ssa-name.
+./src/loop-examples/loop_basic_simple.c:5:5: note: use not simple.
+./src/loop-examples/loop_basic_simple.c:6:14: note: not vectorized: no vectype for stmt: vect__1.6_5 = MEM[(int *)vectp_b.4_11];
+ scalar_type: vector(4) int
+./src/loop-examples/loop_basic_simple.c:6:14: note: not vectorized: no vectype for stmt: vect__2.9_16 = MEM[(int *)vectp_c.7_4];
+ scalar_type: vector(4) int
+./src/loop-examples/loop_basic_simple.c:6:14: note: not vectorized: no vectype for stmt: MEM[(int *)vectp_a.11_18] = vect__3.10_17;
+ scalar_type: vector(4) int
+./src/loop-examples/loop_basic_simple.c:6:14: note: not vectorized: no grouped stores in basic block.
+./src/loop-examples/loop_basic_simple.c:8:1: note: not vectorized: not enough data-refs in basic block.
+./src/loop-examples/loop_basic_simple.c:5:5: note: misalign = 0 bytes of ref b[i_12]
+./src/loop-examples/loop_basic_simple.c:5:5: note: misalign = 0 bytes of ref c[i_12]
+./src/loop-examples/loop_basic_simple.c:5:5: note: misalign = 0 bytes of ref a[i_12]
+./src/loop-examples/loop_basic_simple.c:5:5: note: num. args = 4 (not unary/binary/ternary op).
+./src/loop-examples/loop_basic_simple.c:5:5: note: not ssa-name.
+./src/loop-examples/loop_basic_simple.c:5:5: note: use not simple.
+./src/loop-examples/loop_basic_simple.c:5:5: note: num. args = 4 (not unary/binary/ternary op).
+./src/loop-examples/loop_basic_simple.c:5:5: note: not ssa-name.
+./src/loop-examples/loop_basic_simple.c:5:5: note: use not simple.
+./src/loop-examples/loop_basic_simple.c:6:14: note: not vectorized: no vectype for stmt: vect__3.28_7 = MEM[(int *)vectp_b.26_11];
+ scalar_type: vector(4) int
+./src/loop-examples/loop_basic_simple.c:6:14: note: not vectorized: no vectype for stmt: vect__4.31_16 = MEM[(int *)vectp_c.29_2];
+ scalar_type: vector(4) int
+./src/loop-examples/loop_basic_simple.c:6:14: note: not vectorized: no vectype for stmt: MEM[(int *)vectp_a.33_18] = vect__5.32_17;
+ scalar_type: vector(4) int
+./src/loop-examples/loop_basic_simple.c:6:14: note: not vectorized: no grouped stores in basic block.
+./src/loop-examples/loop_basic_simple.c:11:5: note: not vectorized: not enough data-refs in basic block.

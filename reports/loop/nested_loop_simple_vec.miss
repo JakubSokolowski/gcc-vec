@@ -1,0 +1,44 @@
+./src/loop-examples/nested_loop_simple.c:10:5: note: not vectorized: complicated access pattern.
+./src/loop-examples/nested_loop_simple.c:10:5: note: bad data access.
+
+./src/loop-examples/nested_loop_simple.c:11:9: note: misalign = 0 bytes of ref a[_4]
+./src/loop-examples/nested_loop_simple.c:11:9: note: misalign = 0 bytes of ref b[_4]
+./src/loop-examples/nested_loop_simple.c:11:9: note: misalign = 0 bytes of ref a[_4]
+./src/loop-examples/nested_loop_simple.c:11:9: note: num. args = 4 (not unary/binary/ternary op).
+./src/loop-examples/nested_loop_simple.c:11:9: note: not ssa-name.
+./src/loop-examples/nested_loop_simple.c:11:9: note: use not simple.
+./src/loop-examples/nested_loop_simple.c:11:9: note: num. args = 4 (not unary/binary/ternary op).
+./src/loop-examples/nested_loop_simple.c:11:9: note: not ssa-name.
+./src/loop-examples/nested_loop_simple.c:11:9: note: use not simple.
+./src/loop-examples/nested_loop_simple.c:12:29: note: not vectorized: no vectype for stmt: vect__5.6_11 = MEM[(double *)vectp_a.4_17];
+ scalar_type: vector(2) double
+./src/loop-examples/nested_loop_simple.c:12:29: note: not vectorized: no vectype for stmt: vect__6.9_31 = MEM[(double *)vectp_b.7_33];
+ scalar_type: vector(2) double
+./src/loop-examples/nested_loop_simple.c:12:29: note: not vectorized: no vectype for stmt: MEM[(double *)vectp_a.11_37] = vect__7.10_30;
+ scalar_type: vector(2) double
+./src/loop-examples/nested_loop_simple.c:12:29: note: not vectorized: no grouped stores in basic block.
+./src/loop-examples/nested_loop_simple.c:10:5: note: not vectorized: not enough data-refs in basic block.
+./src/loop-examples/nested_loop_simple.c:10:5: note: not vectorized: not enough data-refs in basic block.
+./src/loop-examples/nested_loop_simple.c:15:1: note: not vectorized: not enough data-refs in basic block.
+./src/loop-examples/nested_loop_simple.c:10:5: note: not vectorized: complicated access pattern.
+./src/loop-examples/nested_loop_simple.c:10:5: note: bad data access.
+
+./src/loop-examples/nested_loop_simple.c:11:9: note: misalign = 0 bytes of ref a[_7]
+./src/loop-examples/nested_loop_simple.c:11:9: note: misalign = 0 bytes of ref b[_7]
+./src/loop-examples/nested_loop_simple.c:11:9: note: misalign = 0 bytes of ref a[_7]
+./src/loop-examples/nested_loop_simple.c:11:9: note: num. args = 4 (not unary/binary/ternary op).
+./src/loop-examples/nested_loop_simple.c:11:9: note: not ssa-name.
+./src/loop-examples/nested_loop_simple.c:11:9: note: use not simple.
+./src/loop-examples/nested_loop_simple.c:11:9: note: num. args = 4 (not unary/binary/ternary op).
+./src/loop-examples/nested_loop_simple.c:11:9: note: not ssa-name.
+./src/loop-examples/nested_loop_simple.c:11:9: note: use not simple.
+./src/loop-examples/nested_loop_simple.c:12:29: note: not vectorized: no vectype for stmt: vect__8.37_14 = MEM[(double *)vectp_a.35_17];
+ scalar_type: vector(2) double
+./src/loop-examples/nested_loop_simple.c:12:29: note: not vectorized: no vectype for stmt: vect__9.40_31 = MEM[(double *)vectp_b.38_33];
+ scalar_type: vector(2) double
+./src/loop-examples/nested_loop_simple.c:12:29: note: not vectorized: no vectype for stmt: MEM[(double *)vectp_a.42_37] = vect__10.41_30;
+ scalar_type: vector(2) double
+./src/loop-examples/nested_loop_simple.c:12:29: note: not vectorized: no grouped stores in basic block.
+./src/loop-examples/nested_loop_simple.c:10:5: note: not vectorized: not enough data-refs in basic block.
+./src/loop-examples/nested_loop_simple.c:10:5: note: not vectorized: not enough data-refs in basic block.
+./src/loop-examples/nested_loop_simple.c:17:5: note: not vectorized: not enough data-refs in basic block.

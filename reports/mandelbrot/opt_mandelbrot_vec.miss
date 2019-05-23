@@ -1,0 +1,128 @@
+/usr/include/c++/7/bits/locale_facets.h:1083:16: note: not vectorized: not enough data-refs in basic block.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:17:16: note: Build SLP failed: unrolling required in basic block SLP
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:17:16: note: misalign = 0 bytes of ref REALPART_EXPR <MEM[(struct complex *)&D.69768]>
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:17:16: note: not ssa-name.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:17:16: note: use not simple.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:17:16: note: not ssa-name.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:17:16: note: use not simple.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:17:16: note: not ssa-name.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:17:16: note: use not simple.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:17:16: note: not ssa-name.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:17:16: note: use not simple.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:17:16: note: not ssa-name.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:17:16: note: use not simple.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:17:16: note: not ssa-name.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:17:16: note: use not simple.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:17:16: note: not ssa-name.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:17:16: note: use not simple.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:17:16: note: not ssa-name.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:17:16: note: use not simple.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:17:16: note: not ssa-name.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:17:16: note: use not simple.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:17:16: note: not ssa-name.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:17:16: note: use not simple.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:17:16: note: not ssa-name.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:17:16: note: use not simple.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:17:16: note: not ssa-name.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:17:16: note: use not simple.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:17:16: note: not ssa-name.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:17:16: note: use not simple.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:17:16: note: not ssa-name.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:17:16: note: use not simple.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:17:16: note: not ssa-name.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:17:16: note: use not simple.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:17:16: note: not ssa-name.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:17:16: note: use not simple.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:17:16: note: not vectorized: vectorization is not profitable.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:26:29: note: not vectorized: latch block not empty.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:26:29: note: bad loop form.
+/usr/include/c++/7/complex:1229:38: note: not vectorized: no grouped stores in basic block.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:26:29: note: not vectorized: not enough data-refs in basic block.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:28:17: note: not vectorized: not enough data-refs in basic block.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:31:16: note: not vectorized: not enough data-refs in basic block.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:36:36: note: not vectorized: multiple nested loops.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:36:36: note: bad loop form.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:37:40: note: not vectorized: latch block not empty.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:37:40: note: not vectorized: Bad inner loop.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:37:40: note: bad loop form.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:26:29: note: not vectorized: latch block not empty.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:26:29: note: bad loop form.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:36:36: note: not vectorized: no grouped stores in basic block.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:36:36: note: not vectorized: not enough data-refs in basic block.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:37:40: note: not vectorized: not enough data-refs in basic block.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:40:25: note: not consecutive access _31 = MEM[(int * *)colors_22(D)];
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:40:25: note: not vectorized: no grouped stores in basic block.
+/usr/include/c++/7/bits/stl_vector.h:798:39: note: not vectorized: not enough data-refs in basic block.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:26:29: note: not vectorized: not enough data-refs in basic block.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:28:17: note: not vectorized: not enough data-refs in basic block.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:37:40: note: not consecutive access _30 = MEM[(int *)scr_14(D) + 4B];
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:37:40: note: not vectorized: no grouped stores in basic block.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:37:40: note: not vectorized: not enough data-refs in basic block.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:37:40: note: not vectorized: no grouped stores in basic block.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:36:36: note: not vectorized: not enough data-refs in basic block.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:44:5: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/7/ostream:221:29: note: not consecutive access SR.41_14 = MEM[(const struct time_point *)&start];
+/usr/include/c++/7/ostream:221:29: note: not consecutive access SR.39_15 = MEM[(const struct time_point *)&end];
+/usr/include/c++/7/ostream:221:29: note: not vectorized: no grouped stores in basic block.
+/usr/include/c++/7/bits/basic_ios.h:49:7: note: not consecutive access _30 = MEM[(const struct basic_ios *)_25]._M_ctype;
+/usr/include/c++/7/bits/basic_ios.h:49:7: note: not consecutive access _22 = MEM[(struct basic_ostream *)_11]._vptr.basic_ostream;
+/usr/include/c++/7/bits/basic_ios.h:49:7: note: not consecutive access _23 = MEM[(long int *)_22 + -24B];
+/usr/include/c++/7/bits/basic_ios.h:49:7: note: not vectorized: no grouped stores in basic block.
+/usr/include/c++/7/bits/locale_facets.h:874:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/7/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/7/bits/locale_facets.h:877:27: note: not consecutive access _39 = MEM[(const struct ctype *)_30].D.29884._vptr.facet;
+/usr/include/c++/7/bits/locale_facets.h:877:27: note: not consecutive access _40 = MEM[(int (*__vtbl_ptr_type) () *)_39 + 48B];
+/usr/include/c++/7/bits/locale_facets.h:877:27: note: not vectorized: no grouped stores in basic block.
+/usr/include/c++/7/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:51:5: note: not vectorized: not enough data-refs in basic block.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:36:36: note: not vectorized: multiple nested loops.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:36:36: note: bad loop form.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:37:40: note: not vectorized: control flow in loop.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:37:40: note: bad loop form.
+/usr/include/c++/7/complex:1328:13: note: not vectorized: control flow in loop.
+/usr/include/c++/7/complex:1328:13: note: bad loop form.
+/usr/include/c++/7/ext/new_allocator.h:111:60: note: not vectorized: not enough data-refs in basic block.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:47:53: note: not vectorized: not enough data-refs in basic block.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:16:79: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/7/bits/stl_vector.h:798:39: note: not vectorized: not enough data-refs in basic block.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:26:29: note: not vectorized: not enough data-refs in basic block.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:26:29: note: not vectorized: not enough data-refs in basic block.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:37:40: note: not vectorized: not enough data-refs in basic block.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:36:36: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/7/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/7/ostream:221:29: note: not consecutive access SR.41_30 = MEM[(const struct time_point *)&start];
+/usr/include/c++/7/ostream:221:29: note: not consecutive access SR.39_31 = MEM[(const struct time_point *)&end];
+/usr/include/c++/7/ostream:221:29: note: not vectorized: no grouped stores in basic block.
+/usr/include/c++/7/ostream:221:29: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/7/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/7/bits/basic_ios.h:49:7: note: not consecutive access _112 = MEM[(const struct basic_ios *)_107]._M_ctype;
+/usr/include/c++/7/bits/basic_ios.h:49:7: note: not consecutive access _104 = MEM[(struct basic_ostream *)_35]._vptr.basic_ostream;
+/usr/include/c++/7/bits/basic_ios.h:49:7: note: not consecutive access _105 = MEM[(long int *)_104 + -24B];
+/usr/include/c++/7/bits/basic_ios.h:49:7: note: not vectorized: no grouped stores in basic block.
+/usr/include/c++/7/bits/basic_ios.h:50:18: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/7/bits/locale_facets.h:874:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/7/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/7/bits/locale_facets.h:876:21: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/7/bits/locale_facets.h:877:27: note: not consecutive access _121 = MEM[(const struct ctype *)_112].D.29884._vptr.facet;
+/usr/include/c++/7/bits/locale_facets.h:877:27: note: not consecutive access _122 = MEM[(int (*__vtbl_ptr_type) () *)_121 + 48B];
+/usr/include/c++/7/bits/locale_facets.h:877:27: note: not vectorized: no grouped stores in basic block.
+/usr/include/c++/7/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/7/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/7/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/7/ostream:613:25: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/7/bits/stl_vector.h:172:18: note: Build SLP failed: unrolling required in basic block SLP
+/usr/include/c++/7/ext/new_allocator.h:101:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/7/ext/new_allocator.h:102:26: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/7/ext/new_allocator.h:111:60: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/7/ext/new_allocator.h:111:60: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/7/bits/stl_algobase.h:367:4: note: Build SLP failed: different types
+/usr/include/c++/7/bits/stl_algobase.h:367:4: note: Build SLP failed: unrolling required in basic block SLP
+/usr/include/c++/7/bits/stl_algobase.h:367:4: note: not vectorized: vectorization is not profitable.
+/usr/include/c++/7/bits/stl_algobase.h:368:23: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/7/ext/new_allocator.h:125:19: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/7/ext/new_allocator.h:125:19: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/7/ext/new_allocator.h:125:19: note: not consecutive access MEM[(struct vector *)_6(D) + 16B].D.63676._M_impl._M_finish = _140;
+/usr/include/c++/7/ext/new_allocator.h:125:19: note: not consecutive access _6(D)->max_iter = 500;
+/usr/include/c++/7/ext/new_allocator.h:125:19: note: not vectorized: no grouped stores in basic block.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:65:45: note: not vectorized: not enough data-refs in basic block.
+./src/mandelbrot/optimized/opt_mandelbrot.cpp:67:1: note: not vectorized: not enough data-refs in basic block.

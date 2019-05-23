@@ -1,0 +1,6 @@
+./src/loop-examples/entry_exit_nopt_simple.c:8:17: note: not vectorized: control flow in loop.
+./src/loop-examples/entry_exit_nopt_simple.c:8:17: note: bad loop form.
+./src/loop-examples/entry_exit_nopt_simple.c:9:12: note: not vectorized: no grouped stores in basic block.
+./src/loop-examples/entry_exit_nopt_simple.c:7:11: note: not vectorized: not enough data-refs in basic block.
+./src/loop-examples/entry_exit_nopt_simple.c:13:1: note: not vectorized: not enough data-refs in basic block.
+./src/loop-examples/entry_exit_nopt_simple.c:15:5: note: not vectorized: not enough data-refs in basic block.

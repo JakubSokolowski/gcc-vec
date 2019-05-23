@@ -2,7 +2,7 @@ project(mandelbrot-opt CXX)
 
 set(
         OPT_COMPILER_FLAGS
-        "-std=c++11 -march=native -O3"
+        "-std=c++11 -march=native -O3 --fast-math"
 )
 
 set(

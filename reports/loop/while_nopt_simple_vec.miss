@@ -1,0 +1,5 @@
+./src/loop-examples/while_nopt_simple.c:14:13: note: not vectorized: base addr of dr is a constant
+./src/loop-examples/while_nopt_simple.c:14:13: note: not vectorized: not enough data-refs in basic block.
+./src/loop-examples/while_nopt_simple.c:19:5: note: not vectorized: loop contains function calls or data references that cannot be analyzed
+./src/loop-examples/while_nopt_simple.c:19:5: note: not vectorized: not enough data-refs in basic block.
+./src/loop-examples/while_nopt_simple.c:19:5: note: not vectorized: not enough data-refs in basic block.

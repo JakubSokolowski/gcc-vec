@@ -1,0 +1,2 @@
+./src/loop-examples/loop_basic_simple.c:5:5: note: loop vectorized
+./src/loop-examples/loop_basic_simple.c:5:5: note: loop vectorized

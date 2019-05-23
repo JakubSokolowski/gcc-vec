@@ -1,9 +1,10 @@
 #include "opt_mandelbrot.h"
+#include <iostream>
 int main (int argc, char* argv[]) {
     auto frac = OPT::Mandelbrot();
-    if(argv[1] == "-show") {
-        auto vis = Visualisation();
-        vis.DisplayFractal(frac);
-    }
+    std::cout << argv[1];
+
+    auto vis = Visualisation();
+    vis.DisplayFractal(frac);
 }
 

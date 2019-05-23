@@ -1,0 +1,22 @@
+
+./src/loop-examples/loop1_aligned_simple.c:12:5: note: misalign = 0 bytes of ref *_3
+./src/loop-examples/loop1_aligned_simple.c:12:5: note: misalign = 0 bytes of ref *_5
+./src/loop-examples/loop1_aligned_simple.c:12:5: note: misalign = 0 bytes of ref *_3
+./src/loop-examples/loop1_aligned_simple.c:12:5: note: not ssa-name.
+./src/loop-examples/loop1_aligned_simple.c:12:5: note: use not simple.
+./src/loop-examples/loop1_aligned_simple.c:12:5: note: not ssa-name.
+./src/loop-examples/loop1_aligned_simple.c:12:5: note: use not simple.
+./src/loop-examples/loop1_aligned_simple.c:12:5: note: not ssa-name.
+./src/loop-examples/loop1_aligned_simple.c:12:5: note: use not simple.
+./src/loop-examples/loop1_aligned_simple.c:12:5: note: not ssa-name.
+./src/loop-examples/loop1_aligned_simple.c:12:5: note: use not simple.
+./src/loop-examples/loop1_aligned_simple.c:10:13: note: not vectorized: not enough data-refs in basic block.
+./src/loop-examples/loop1_aligned_simple.c:13:14: note: not vectorized: no vectype for stmt: vect__4.6_23 = MEM[(double *)vectp_x.4_30];
+ scalar_type: vector(2) double
+./src/loop-examples/loop1_aligned_simple.c:13:14: note: not vectorized: no vectype for stmt: vect__6.9_18 = MEM[(double *)vectp_y.7_20];
+ scalar_type: vector(2) double
+./src/loop-examples/loop1_aligned_simple.c:13:14: note: not vectorized: no vectype for stmt: MEM[(double *)vectp_x.11_9] = vect__7.10_17;
+ scalar_type: vector(2) double
+./src/loop-examples/loop1_aligned_simple.c:13:14: note: not vectorized: no grouped stores in basic block.
+./src/loop-examples/loop1_aligned_simple.c:15:1: note: not vectorized: not enough data-refs in basic block.
+./src/loop-examples/loop1_aligned_simple.c:17:5: note: not vectorized: not enough data-refs in basic block.

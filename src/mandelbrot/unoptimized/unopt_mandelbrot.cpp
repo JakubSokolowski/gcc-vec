@@ -9,9 +9,11 @@
 #include "unopt_mandelbrot.h"
 
 namespace UNOPT {
+
     using Complex = std::complex<double>;
 
-    Complex Scale(Window<int> &scr, Window<double> &fr, Complex c) {
+
+    Complex Scale(Window<int> scr, Window<double> fr, Complex c) {
         Complex aux(c.real() / (double)scr.width() * fr.width() + fr.x_min(),
                     c.imag() / (double)scr.height() * fr.height() + fr.y_min());
         return aux;
@@ -29,20 +31,25 @@ namespace UNOPT {
         return iter;
     }
 
-    void GetNumberIterations(Window<int> &scr, Window<double> &fract, int iter_max, std::vector<int> &colors,
+    void GetNumberIterations(Window<int> scr, Window<double> fract, int iter_max, std::vector<int> &colors,
                              const std::function<Complex(Complex, Complex)> &func) {
         int k = 0, progress = -1;
+
         for(int i = scr.y_min(); i < scr.y_max(); ++i) {
-            for(int j = scr.x_min(); j < scr.x_max(); ++j) {
+            int j = scr.x_min();
+            while(true) {
+                if(j >= scr.x_max())
+                    break;
                 Complex c((double)j, (double)i);
                 c = Scale(scr, fract, c);
-                colors[k] = Escape(c, iter_max, func);
+                colors.push_back(Escape(c, iter_max, func));
+                j++;
                 k++;
             }
         }
     }
 
-    void ComputeFractalPoints(Window<int> &scr, Window<double> &fract, int iter_max, std::vector<int> &colors,
+    void ComputeFractalPoints(Window<int> scr, Window<double> fract, int iter_max, std::vector<int> &colors,
                               const std::function<Complex(Complex, Complex)> &func) {
         auto start = std::chrono::steady_clock::now();
         GetNumberIterations(scr, fract, iter_max, colors, func);
@@ -59,7 +66,7 @@ namespace UNOPT {
         auto func = [] (Complex z, Complex c) -> Complex {return z * z + c; };
 
         int iter_max = 500;
-        std::vector<int> colors(scr.Size());
+        std::vector<int> colors;
 
         ComputeFractalPoints(scr, fract, iter_max, colors, func);
 

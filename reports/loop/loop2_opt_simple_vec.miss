@@ -1,0 +1,17 @@
+./src/loop-examples/loop2_opt_simple.c:8:5: note: misalign = 0 bytes of ref b[i_19]
+./src/loop-examples/loop2_opt_simple.c:8:5: note: misalign = 12 bytes of ref c[65535]
+./src/loop-examples/loop2_opt_simple.c:8:5: note: misalign = 0 bytes of ref a[i_19]
+./src/loop-examples/loop2_opt_simple.c:8:5: note: num. args = 4 (not unary/binary/ternary op).
+./src/loop-examples/loop2_opt_simple.c:8:5: note: not ssa-name.
+./src/loop-examples/loop2_opt_simple.c:8:5: note: use not simple.
+./src/loop-examples/loop2_opt_simple.c:8:5: note: num. args = 4 (not unary/binary/ternary op).
+./src/loop-examples/loop2_opt_simple.c:8:5: note: not ssa-name.
+./src/loop-examples/loop2_opt_simple.c:8:5: note: use not simple.
+./src/loop-examples/loop2_opt_simple.c:5:5: note: not vectorized: not enough data-refs in basic block.
+./src/loop-examples/loop2_opt_simple.c:10:39: note: not vectorized: no vectype for stmt: vect__2.8_15 = MEM[(int *)vectp_b.6_12];
+ scalar_type: vector(4) int
+./src/loop-examples/loop2_opt_simple.c:10:39: note: not vectorized: no vectype for stmt: MEM[(int *)vectp_a.13_11] = vect__3.12_13;
+ scalar_type: vector(4) int
+./src/loop-examples/loop2_opt_simple.c:10:39: note: not vectorized: no grouped stores in basic block.
+./src/loop-examples/loop2_opt_simple.c:13:13: note: not vectorized: not enough data-refs in basic block.
+./src/loop-examples/loop2_opt_simple.c:16:5: note: not vectorized: not enough data-refs in basic block.
