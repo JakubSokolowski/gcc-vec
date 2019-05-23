@@ -1,2 +1,0 @@
-COMPILER REPORTS:
-https://gcc.gnu.org/onlinedocs/gcc/Developer-Options.html#index-fopt-info-1337
